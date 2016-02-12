@@ -47,7 +47,7 @@ public class App {
       SYS_HOSTNAME :
       (!isEmpty(ENV_HOSTNAME)) ?
         ENV_HOSTNAME :
-        "localhost" ;
+        "0.0.0.0" ;
     return hostname;
   }
 
